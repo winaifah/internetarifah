@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>HTTP & HTTPS</title>
+</head>
+<body>
+
+    <div class="container">
+        <nav id="header">
+            <div class="nav-logo">
+                <p class="nav-name">Internet</p>
+            </div>
+            <div class="nav-menu" id="myNavMenu">
+                <ul class="nav_menu_list">
+                    <li class="nav_list"><a href="index.html" class="nav-link">Home</a></li>
+                    <li class="nav_list"><a href="http-https.html" class="nav-link">HTTP</a></li>
+                    <li class="nav_list"><a href="domain.html" class="nav-link">Domain</a></li>
+                    <li class="nav_list"><a href="hosting.html" class="nav-link">Host</a></li>
+                    <li class="nav_list"><a href="dns.html" class="nav-link">DNS</a></li>
+                    <li class="nav_list"><a href="browser.html" class="nav-link">Browser</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        
+        <main>
+            <section id="http-https" class="content-box">
+                <h2 class="underline" style="text-align: center;">HTTP dan HTTPS</h2>
+
+                <p class="justify-text">HTTP (Hypertext Transfer Protocol) adalah protokol yang digunakan untuk mentransfer data di web. HTTPS (HTTP Secure) menambahkan enkripsi untuk keamanan.</p>
+                <div style="text-align: center;">
+                    <img src="/Users/arwinamrullah/Documents/Front_End/Tugas8/images/http.jpeg" alt="Diagram HTTP vs HTTPS" style="max-width: 80%; height: auto;">
+                </div>
+                
+                <h3>Perbedaan HTTP dan HTTPS</h3>
+                <h3>1. Keamanan Data</h3>
+                <p class="justify-text">Data yang ditransmisikan melalui HTTP tidak aman, sedangkan HTTPS menjamin keamanan melalui enkripsi, autentikasi server, dan integritas data.</p>
+                
+                <h3>2. SSL</h3>
+                <p class="justify-text">HTTPS memerlukan sertifikat SSL (Secure Socket Layers) untuk keamanan, yang menunjukkan bahwa situs tersebut aman untuk transaksi data sensitif.</p>
+                
+                <h3>3. Penggunaan Port</h3>
+                <p class="justify-text">HTTP menggunakan port 80, sedangkan HTTPS menggunakan port 443 untuk komunikasi yang aman.</p>
+                
+                <h3>4. Keuntungan Penggunaan</h3>
+                <p class="justify-text">HTTPS memberikan kepercayaan lebih kepada pengguna, menandakan bahwa situs aman untuk mengakses dan mengirimkan informasi pribadi.</p>
+
+                <h3>Cara Kerja HTTP dan HTTPS</h3>
+                <p class="justify-text">Cara kerja HTTP terkait erat dengan cara aplikasi web beroperasi. Secara singkat, prosesnya adalah sebagai berikut:</p>
+                <ol>
+                    <li>Klien HTTP membuat koneksi dan mengirimkan permintaan dokumen ke web server.</li>
+                    <li>Saat server HTTP memproses permintaan tersebut, klien akan menunggu respons dari server.</li>
+                    <li>Setelah selesai memproses, web server akan memberikan respons yang mencakup kode status dan data yang diminta, kemudian menutup koneksi.</li>
+                </ol>
+                <p class="justify-text">Intinya, klien mengajukan permintaan data ke server, dan server mengirimkan respons yang berisi file HTML atau data lain yang diminta.</p>
+                <p class="justify-text">Di sisi lain, HTTPS beroperasi dengan menggunakan sub-lapisan seperti SSL atau TLS, berbeda dari HTTP yang menggunakan lapisan aplikasi standar. Oleh karena itu, HTTPS sering disebut sebagai kombinasi dari HTTP dan SSL/TLS.</p>
+
+                <p><a href="https://www.jagoanhosting.com/blog/http-adalah/#cara-kerja-http">Sumber Bacaan</a></p>
+            </section>
+        </main>
+
+    
+        <footer>
+            <div style="text-align: center;">
+                <p>© Arifah Deswina</p>
+                <p>D121221030</p>
+            </div>
+        </footer>
+        
+
+    </div>
+
+</body>
+</html>
